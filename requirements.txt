@@ -1,0 +1,11 @@
+# Shared venv: C:\Users\QBS PC\PycharmProjects\ais-handler-template\.venv
+# Do not pin numpy/opencv/sklearn below that environment (NumPy 2, OpenCV 5, torch).
+mediapipe>=0.10.21
+pandas>=2.2
+arabic-reshaper>=3.0.0
+dtaidistance>=2.3.12
+fonttools>=4.50
+uharfbuzz>=0.46
+freetype-py>=2.4
+# Already present in the shared venv:
+# numpy, opencv-python (or opencv-contrib-python), scikit-learn, joblib, Pillow, python-bidi, matplotlib

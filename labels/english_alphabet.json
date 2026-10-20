@@ -1,0 +1,47 @@
+{
+  "language": "english",
+  "system": "ASL fingerspelling",
+  "source": "American Sign Language one-handed fingerspelling alphabet. J and Z require motion; all other letters are static hand shapes.",
+  "letters": [
+    {"id": "A", "char": "A", "transliteration": "A", "folder": "A", "kind": "static"},
+    {"id": "B", "char": "B", "transliteration": "B", "folder": "B", "kind": "static"},
+    {"id": "C", "char": "C", "transliteration": "C", "folder": "C", "kind": "static"},
+    {"id": "D", "char": "D", "transliteration": "D", "folder": "D", "kind": "static"},
+    {"id": "E", "char": "E", "transliteration": "E", "folder": "E", "kind": "static"},
+    {"id": "F", "char": "F", "transliteration": "F", "folder": "F", "kind": "static"},
+    {"id": "G", "char": "G", "transliteration": "G", "folder": "G", "kind": "static"},
+    {"id": "H", "char": "H", "transliteration": "H", "folder": "H", "kind": "static"},
+    {"id": "I", "char": "I", "transliteration": "I", "folder": "I", "kind": "static"},
+    {
+      "id": "J",
+      "char": "J",
+      "transliteration": "J",
+      "folder": "J",
+      "kind": "dynamic",
+      "motion": "Pinky fingertip traces a J hook in the air (starts from the I handshape)."
+    },
+    {"id": "K", "char": "K", "transliteration": "K", "folder": "K", "kind": "static"},
+    {"id": "L", "char": "L", "transliteration": "L", "folder": "L", "kind": "static"},
+    {"id": "M", "char": "M", "transliteration": "M", "folder": "M", "kind": "static"},
+    {"id": "N", "char": "N", "transliteration": "N", "folder": "N", "kind": "static"},
+    {"id": "O", "char": "O", "transliteration": "O", "folder": "O", "kind": "static"},
+    {"id": "P", "char": "P", "transliteration": "P", "folder": "P", "kind": "static"},
+    {"id": "Q", "char": "Q", "transliteration": "Q", "folder": "Q", "kind": "static"},
+    {"id": "R", "char": "R", "transliteration": "R", "folder": "R", "kind": "static"},
+    {"id": "S", "char": "S", "transliteration": "S", "folder": "S", "kind": "static"},
+    {"id": "T", "char": "T", "transliteration": "T", "folder": "T", "kind": "static"},
+    {"id": "U", "char": "U", "transliteration": "U", "folder": "U", "kind": "static"},
+    {"id": "V", "char": "V", "transliteration": "V", "folder": "V", "kind": "static"},
+    {"id": "W", "char": "W", "transliteration": "W", "folder": "W", "kind": "static"},
+    {"id": "X", "char": "X", "transliteration": "X", "folder": "X", "kind": "static"},
+    {"id": "Y", "char": "Y", "transliteration": "Y", "folder": "Y", "kind": "static"},
+    {
+      "id": "Z",
+      "char": "Z",
+      "transliteration": "Z",
+      "folder": "Z",
+      "kind": "dynamic",
+      "motion": "Index fingertip traces a Z in the air."
+    }
+  ]
+}

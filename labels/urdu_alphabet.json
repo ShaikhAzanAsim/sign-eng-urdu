@@ -1,0 +1,381 @@
+{
+  "language": "urdu",
+  "system": "Pakistan Sign Language (PSL) / Urdu Sign Language fingerspelling",
+  "source": {
+    "primary": "UAlpha40 (Sajid, Javaid, Baloch, 2025). Data in Brief 59:111342. Mendeley 10.17632/3pvnnckxyb.3. 36 static JPG classes + 4 dynamic MP4 classes = 40.",
+    "visual_chart": "2021 PSL webcam dataset chart (Imran / Data in Brief S235234092100305X): 37 static folders. Used as the photo reference for overlapping letters.",
+    "standard_gestures": "Family Educational Services Foundation (FESF) PSL dictionary."
+  },
+  "notes": [
+    "UAlpha40 is the label authority for this project (40 letters, explicit static vs dynamic split).",
+    "The four dynamic letters are the UAlpha40 classes whose samples are videos (MP4), not still JPGs: Alif mad (آ), Jeem (ج), Aray (ڑ), Hay/Heh-goal (ہ).",
+    "The 2021 chart you attached has 37 letters, all photographed as static shapes. It does not include آ, ں, or ھ. It does photograph ج, ڑ, and ہ as stills — UAlpha40 still treats those three plus آ as dynamic because the FESF citation form uses motion.",
+    "Folder names prefer the 2021 chart names you already have (Aliph, Bay, Pay, ...) and add UAlpha40 names as aliases so data collection matches either source."
+  ],
+  "letters": [
+    {
+      "id": "alif_mad",
+      "char": "آ",
+      "transliteration": "Alif mad",
+      "folder": "Alif_mad",
+      "kind": "dynamic",
+      "in_2021_chart": false,
+      "aliases": ["Alif mad"],
+      "motion": "UAlpha40 dynamic class (video). Alif with madda; motion distinguishes it from static Alif."
+    },
+    {
+      "id": "alif",
+      "char": "ا",
+      "transliteration": "Alif",
+      "folder": "Aliph",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Aliph", "Alif"]
+    },
+    {
+      "id": "bay",
+      "char": "ب",
+      "transliteration": "Bay",
+      "folder": "Bay",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Bay"]
+    },
+    {
+      "id": "pay",
+      "char": "پ",
+      "transliteration": "Pay",
+      "folder": "Pay",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Pay"]
+    },
+    {
+      "id": "tay",
+      "char": "ت",
+      "transliteration": "Tay",
+      "folder": "Tay",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Tay"]
+    },
+    {
+      "id": "taay",
+      "char": "ٹ",
+      "transliteration": "TTay",
+      "folder": "TTay",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Taay", "Tay", "Tte"]
+    },
+    {
+      "id": "say",
+      "char": "ث",
+      "transliteration": "Say",
+      "folder": "Thay",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Thay", "Se"]
+    },
+    {
+      "id": "jeem",
+      "char": "ج",
+      "transliteration": "Jeem",
+      "folder": "Jeem",
+      "kind": "dynamic",
+      "in_2021_chart": true,
+      "aliases": ["Jeem"],
+      "motion": "UAlpha40 dynamic class (video). 2021 chart shows a still of this sign for shape reference."
+    },
+    {
+      "id": "chay",
+      "char": "چ",
+      "transliteration": "Chay",
+      "folder": "Chay",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Chay"]
+    },
+    {
+      "id": "hay_hah",
+      "char": "ح",
+      "transliteration": "Hay (hah)",
+      "folder": "Hay_hah",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["1-Hay", "Hay"]
+    },
+    {
+      "id": "khay",
+      "char": "خ",
+      "transliteration": "Khay",
+      "folder": "Khay",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Khay"]
+    },
+    {
+      "id": "dal",
+      "char": "د",
+      "transliteration": "Dal",
+      "folder": "Daal",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Dal", "Daal"]
+    },
+    {
+      "id": "daal",
+      "char": "ڈ",
+      "transliteration": "DDal",
+      "folder": "DDaal",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Daal", "Ddal"]
+    },
+    {
+      "id": "zaal",
+      "char": "ذ",
+      "transliteration": "Zaal",
+      "folder": "Dhaal",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Dhaal", "Zaal"]
+    },
+    {
+      "id": "ray",
+      "char": "ر",
+      "transliteration": "Ray",
+      "folder": "Ray",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Ray"]
+    },
+    {
+      "id": "aray",
+      "char": "ڑ",
+      "transliteration": "Aray",
+      "folder": "aRay",
+      "kind": "dynamic",
+      "in_2021_chart": true,
+      "aliases": ["aRay", "Aray", "Rre"],
+      "motion": "UAlpha40 dynamic class (video). 2021 chart shows a still of this sign for shape reference."
+    },
+    {
+      "id": "zay",
+      "char": "ز",
+      "transliteration": "Zay",
+      "folder": "Zay",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Zay"]
+    },
+    {
+      "id": "zaey",
+      "char": "ژ",
+      "transliteration": "Zhe",
+      "folder": "Djay",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Djay", "Zaey", "Zhe"]
+    },
+    {
+      "id": "seen",
+      "char": "س",
+      "transliteration": "Seen",
+      "folder": "Seen",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Seen"]
+    },
+    {
+      "id": "sheen",
+      "char": "ش",
+      "transliteration": "Sheen",
+      "folder": "Sheen",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Sheen"]
+    },
+    {
+      "id": "suad",
+      "char": "ص",
+      "transliteration": "Suad",
+      "folder": "Suaad",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Suaad", "Suad"]
+    },
+    {
+      "id": "zuad",
+      "char": "ض",
+      "transliteration": "Zuad",
+      "folder": "Dhuaad",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Dhuaad", "Zuad"]
+    },
+    {
+      "id": "tuey",
+      "char": "ط",
+      "transliteration": "Toayen",
+      "folder": "Toayn",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Toay'n", "Tuey", "Toayen"]
+    },
+    {
+      "id": "zuey",
+      "char": "ظ",
+      "transliteration": "Zoe",
+      "folder": "Zoe",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Zoe", "Zuey"]
+    },
+    {
+      "id": "ain",
+      "char": "ع",
+      "transliteration": "Ain",
+      "folder": "Ain",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Ain"]
+    },
+    {
+      "id": "ghain",
+      "char": "غ",
+      "transliteration": "Ghain",
+      "folder": "Ghain",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Ghain"]
+    },
+    {
+      "id": "fay",
+      "char": "ف",
+      "transliteration": "Fay",
+      "folder": "Fay",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Fay"]
+    },
+    {
+      "id": "qaf",
+      "char": "ق",
+      "transliteration": "Qaf",
+      "folder": "Quaaf",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Quaaf", "Kaf"]
+    },
+    {
+      "id": "kaaf",
+      "char": "ک",
+      "transliteration": "Kaaf",
+      "folder": "Kaaf",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Kaaf", "Kiaf"]
+    },
+    {
+      "id": "gaaf",
+      "char": "گ",
+      "transliteration": "Gaaf",
+      "folder": "Gaaf",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Gaaf"]
+    },
+    {
+      "id": "lam",
+      "char": "ل",
+      "transliteration": "Laam",
+      "folder": "Laam",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Laam", "Lam"]
+    },
+    {
+      "id": "meem",
+      "char": "م",
+      "transliteration": "Meem",
+      "folder": "Meem",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Meem"]
+    },
+    {
+      "id": "nuun",
+      "char": "ن",
+      "transliteration": "Noon",
+      "folder": "Noon",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Noon", "Nuun"]
+    },
+    {
+      "id": "nuun_ghunna",
+      "char": "ں",
+      "transliteration": "Noon ghunna",
+      "folder": "Nuungh",
+      "kind": "static",
+      "in_2021_chart": false,
+      "aliases": ["Nuungh", "Noon ghunna"]
+    },
+    {
+      "id": "wao",
+      "char": "و",
+      "transliteration": "Wao",
+      "folder": "Vao",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Vao", "Wao"]
+    },
+    {
+      "id": "hay_goal",
+      "char": "ہ",
+      "transliteration": "Hay (heh-goal)",
+      "folder": "Hay_goal",
+      "kind": "dynamic",
+      "in_2021_chart": true,
+      "aliases": ["Hay", "2-Hay"],
+      "motion": "UAlpha40 dynamic class (video). Distinct from static ح (hah) and ھ (do-chashmi he)."
+    },
+    {
+      "id": "dochahay",
+      "char": "ھ",
+      "transliteration": "Do-chashmi he",
+      "folder": "Dochahay",
+      "kind": "static",
+      "in_2021_chart": false,
+      "aliases": ["Dochahay", "Heh doachashmee"]
+    },
+    {
+      "id": "hamza",
+      "char": "ء",
+      "transliteration": "Hamza",
+      "folder": "Hamza",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Hamza"]
+    },
+    {
+      "id": "chhoti_yeh",
+      "char": "ی",
+      "transliteration": "Chhoti yeh",
+      "folder": "Chhoti_yeh",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Cyeh", "Chhoti yeh", "Yeh"]
+    },
+    {
+      "id": "bari_yeh",
+      "char": "ے",
+      "transliteration": "Bari yeh",
+      "folder": "Bari",
+      "kind": "static",
+      "in_2021_chart": true,
+      "aliases": ["Byeh", "Bari yeh"]
+    }
+  ]
+}

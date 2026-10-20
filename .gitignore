@@ -1,0 +1,28 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# Large / generated artifacts
+models/hand_landmarker.task
+models/**/*.pkl
+models/**/dynamic_templates/*.npy
+models/**/dynamic_templates/*.json
+data/raw_captures/**/*.jpg
+data/raw_captures/**/*.png
+data/raw_captures/**/*.mp4
+data/landmarks/**/*.csv
+fonts/*.ttf
+fonts/*.otf
+
+# Keep folder placeholders
+!models/**/.gitkeep
+!data/**/.gitkeep
+!fonts/.gitkeep
